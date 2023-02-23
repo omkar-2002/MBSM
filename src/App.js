@@ -16,7 +16,8 @@ import Mbsm from "./screens/publication/Mbsm";
 import Bsm from "./screens/publication/Bsm";
 import OrganizationalStructure from "./screens/organizationalStructure/OrganizationalStructure";
 import Activity from "./screens/activity/Activity";
-
+import ResearchPaper from "./screens/publication/ResearchPaper";
+import JoinMbsm from "./screens/JoinMbsm/JoinMbsm";
 const App = () => {
   return (
     <>
@@ -46,6 +47,8 @@ const App = () => {
             element={<OrganizationalStructure />}
           />
           <Route path="/activity" element={<Activity />} />
+          <Route path="/research-papers" element={<ResearchPaper />} />
+          <Route path="/join-mbsm" element={<JoinMbsm />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -12,7 +12,7 @@ function PdfComponent({ pdfLink }) {
 }
 export default function Activity() {
   const { isLoading, data } = useQuery("activities", async () => {
-    const querySnapshot = await getDocs(collection(db, "activity"));
+    const querySnapshot = await getDocs(collection(db, "Activity"));
     return querySnapshot.docs.map((doc) => doc.data());
   });
   if (isLoading) {

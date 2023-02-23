@@ -74,7 +74,7 @@ const CustomNavbar = () => {
                     BSM
                   </NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown.Item href="#action/3.3">
+                <NavDropdown.Item href="/research-papers">
                   Research Papers
                 </NavDropdown.Item>
               </NavDropdown>
@@ -84,7 +84,7 @@ const CustomNavbar = () => {
               <Nav.Link className="navItem" href="/gallery/photogallery">
                 Photo Gallery
               </Nav.Link>
-              <Nav.Link className="navItem" href="#join">
+              <Nav.Link className="navItem" href="/join-mbsm">
                 Join MBSM
               </Nav.Link>
             </Nav>
